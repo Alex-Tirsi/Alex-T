@@ -1,0 +1,42 @@
+
+
+nav a{
+  text-align: right;
+      color:white;
+}
+
+.hero-banner
+{
+height: 500px;
+text-align: right;
+background-image: url(assets/images/bg2.jpg);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+border-style: dashed;
+border-color: Blue;
+color:White;
+
+border-width: 20px;
+}
+
+.hero-text  {
+  color:white;
+  text-align: center;
+  padding:150px;
+}
+
+.hero-text button{
+  text-decoration-style: none;
+  color:white;
+  border-color: white;
+  background-color: transparent;
+}
+
+#sus {
+  width: 50px;
+  padding-top: 5px;
+  float:left;
+  text-align: left;
+  margin: 0px;
+}
