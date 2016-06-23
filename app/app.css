@@ -11,7 +11,7 @@ height: 500px;
 text-align: right;
 background-image: url(assets/images/bg2.jpg);
 background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;;
 background-position: center;
 border-style: dashed;
 border-color: Blue;
