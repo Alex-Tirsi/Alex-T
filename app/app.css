@@ -13,8 +13,7 @@ background-image: url(assets/images/bg2.jpg);
 background-repeat: no-repeat;
 background-size: cover;;
 background-position: center;
-border-style: dashed;
-border-color: Blue;
+
 color:White;
 
 border-width: 20px;
@@ -39,4 +38,90 @@ border-width: 20px;
   float:left;
   text-align: left;
   margin: 0px;
+}
+section article img {
+  padding-top: 500px;
+}
+
+#blue {
+  height: 250px;
+  background: rgb(0, 100, 250);;
+  text-align: center;
+}
+#blue h1 {
+  margin: 0;
+}
+
+
+#black{
+  height: 1500px;
+  background: black;
+
+}
+#black h1{
+  margin: 0;
+  margin-top:   0px;
+  color: white;
+  text-align: center;
+}
+
+
+
+.image-one img{
+
+  float: left;
+  height: 90px;
+
+
+  margin:2.5% 13%;
+
+  border:2px solid;
+  border-color: darkgray;
+  border-radius: 150px;
+  padding: 10px;
+  top: 50%;
+  left:50%;
+}
+
+.image-two img{
+  height: 90px;
+  width: auto;
+
+  border:2px solid;
+  border-color: darkgray;
+  border-radius: 150px;
+}
+
+.content {
+position: absolute;
+height: 150px;
+}
+
+.img{
+  float: left;
+  width: 33.3%;
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+
+  box-sizing: border-box;
+
+
+}
+
+.img img{
+  width:100%;
+  padding: 15px;
+    height: auto;
+    margin-left: -15px;
+    margin-right: -15px;
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 2s;
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+.img img:hover {
+  width: 110%;
+
 }
