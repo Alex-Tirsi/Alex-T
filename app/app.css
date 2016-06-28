@@ -8,7 +8,8 @@ nav a{
 .hero-banner
 {
 height: 500px;
-text-align: right;
+padding-top:200px;
+text-align: center;
 background-image: url(assets/images/bg2.jpg);
 background-repeat: no-repeat;
 background-size: cover;;
@@ -25,11 +26,13 @@ border-width: 20px;
   padding:150px;
 }
 
-.hero-text button{
+.hero-banner button{
+
   text-decoration-style: none;
-  color:white;
+    color:black;
   border-color: white;
-  background-color: transparent;
+  background-color: white ;
+  border-radius: 55px;
 }
 
 #sus {
@@ -44,18 +47,25 @@ section article img {
 }
 
 #blue {
-  height: 250px;
+  height: auto;
+
   background: rgb(0, 100, 250);;
   text-align: center;
+  padding-bottom: 70px;
+}
+#blue img{
+padding:10px;
 }
 #blue h1 {
-  margin: 0;
+  height: auto;
+  margin: 15px;
 }
 
 
 #black{
-  height: 1500px;
+  height: auto;
   background: black;
+
 
 }
 #black h1{
@@ -69,18 +79,13 @@ section article img {
 
 .image-one img{
 
-  float: left;
+
   height: 90px;
-
-
-  margin:2.5% 13%;
-
+  margin-top: 15px;
   border:2px solid;
   border-color: darkgray;
   border-radius: 150px;
-  padding: 10px;
-  top: 50%;
-  left:50%;
+
 }
 
 .image-two img{
@@ -93,18 +98,12 @@ section article img {
 }
 
 .content {
-position: absolute;
-height: 150px;
+
 }
 
 .img{
-  float: left;
-  width: 33.3%;
-  display: inline-block;
-  position: relative;
-  padding: 10px;
 
-  box-sizing: border-box;
+
 
 
 }
@@ -122,6 +121,12 @@ height: 150px;
 }
 
 .img img:hover {
-  width: 105%;
+  opacity: 0.5;
+   filter: alpha(opacity=50);
 
+
+}
+
+.navbar-default .navbar-nav li a {
+  color: red;
 }
