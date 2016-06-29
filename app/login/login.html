@@ -1,25 +1,37 @@
 <html>
   <head>
     <title> Login</title>
-      <style></style>
-       <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="../assets/css/normalize.css">
-      <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="../assets/jquery/jquery.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.js"></script>
   </head>
 
   <body>
-    <section class="bara-top">
+    <header id="header">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="containter">
+          <div class="navbar-header">
+            <button type="button" data-target="#mynavbar" data-toggle="collapse"
+                      class="btn btn-default btn-lg navbar-toggle">
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+              </button>
+              <a href="index.html" class="navbar-brand">QShop</a>
+          </div>
 
-
-      <div id="sus">
-      <h1><a href="../index.html">  QShop </a></h1> </div>
-      <nav>
-        <a href="../about/about.html">About</a>
-        <a href="../contact/contact.html">Contact</a>
-        <a href="../register/register.html">Register</a>
-
+          <div id="mynavbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="about/about.html">About</a></li>
+              <li><a href="contact/contact.html">Contact</a></li>
+              <li><a href="register/register.html">Register</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
-    </section>
+    </header>
 
     <section class="forms" >
           <form id="forms" >
@@ -27,12 +39,12 @@
         <h1> Login </h1>
         <div class="container">
 
-<form role="form-horizontal">
-  <div class="form-group col-sm-6">
+<form role="form">
+  <div class="form-group col-sm-12">
     <label for="user  ">Username:</label>
     <input type="textbox" class="form-control" id="User" placeholder="Enter username">
   </div>
-  <div class="form-group">
+  <div class="form-group col-sm-12">
     <label for="pwd">Password:</label>
     <input type="password" class="form-control" id="pwd" placeholder="Enter password">
   </div>
