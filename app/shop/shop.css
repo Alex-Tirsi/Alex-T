@@ -41,7 +41,7 @@ color: black;
 .row{
   padding-bottom: 15px;
 }
-.img img:hover {
+.img:hover {
   opacity: 0.5;
 
    filter: alpha(opacity=50);

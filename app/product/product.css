@@ -50,6 +50,9 @@ border-width:medium;
     border-radius: 50px;
   border-color: green;
 }
+.carousel-inner>.item>img {
+  width:100%;
+}
 
 .text input:not([type="image" i]){
   width: 10%;
