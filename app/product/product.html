@@ -1,0 +1,155 @@
+<html>
+
+<head>
+    <title> Le Product</title>
+    <style></style>
+    <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="product.css">
+    <script src="../assets/jquery/jquery.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.js"></script>
+
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="containter">
+                <div class="navbar-header">
+                    <button type="button" data-target="#mynavbar" data-toggle="collapse" class="btn btn-default btn-lg navbar-toggle">
+                        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">QShop</a>
+                </div>
+
+                <div id="mynavbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../about/about.html">About</a></li>
+                        <li><a href="../contact/contact.html">Contact</a></li>
+                        <li><a href="../register/register.html">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="prod">
+        <div class="container">
+            <div class="row">
+
+                <div id="carousel-example-generic" class="carousel slide col-md-12 col-lg-6 col-xs-12 text" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="../assets/images/products/product-1.jpg" alt="0">
+                            <div class="carousel-caption">
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../assets/images/products/product-2.jpg" alt="1">
+                            <div class="carousel-caption">
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../assets/images/products/product-3.jpg" alt="2">
+                            <div class="carousel-caption">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <div class="col-md-12 col-lg-6 col-xs-12 text">
+                  <h1>Awesome Product</h1>
+                  <h5>1 review </h5>
+                  <h1>$22</h1>
+                  <h3>Description Elit qui culpa occaecat deserunt excepteur fugiat occaecat ex mollit pariatur elit exercitation non ullamco veniam mollit nulla. </h3>
+                  <button type="button" class="btn btn-default col-sm-1 red" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+                  <input type="number" value="1" class="col-sm-1 " >
+                  <button type="button" class="btn btn-default col-sm-1 red" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                    </button>
+                  <button type="button" class="sub" onclick="alert('The item is in your cart now')">Add to Cart</button>
+                </div>
+            </div>
+            <br>
+            <div class="tabs">
+
+    <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Description</a></li>
+    <li><a data-toggle="tab" href="#menu1">Specifications  </a>
+    </li>
+    <li><a data-toggle="tab" href="#menu2">Review</a></li>
+
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>Description</h3>
+      <p>In quis cupidatat veniam minim commodo proident ex sint enim dolor cupidatat nulla cillum deserunt ut laboris nisi.</P>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Specifications</h3>
+<table class="table">
+    <tbody>
+      <tr>
+        <td>Size</td>
+        <td>20'X 30'</td>
+
+      </tr>
+      <tr>
+        <td>Colors</td>
+        <td>Red, Blue</td>
+
+      </tr>
+      <tr>
+        <td>Material</td>
+        <td>100% Cotton</td>
+
+      </tr>
+    </tbody>
+  </table>
+    </div>
+  <div id="menu2" class="tab-pane fade">
+      <h3>Review</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+  </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+<footer class="joss">
+  <b>Copyright &copy 2016 Summer Fun</b>
+  <i class="fa fa-arrow-up" style="font-size:28px;color:green " border-color="green"></i>
+
+</body>
+
+
+</html>
