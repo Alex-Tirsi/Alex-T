@@ -23,5 +23,13 @@ button .dropdown-menu{
 }
 
 .update {
-  margin-top:20px; 
+  margin-top:20px;
+}
+
+.rightme {
+  padding: 0px;
+}
+
+.rightme2 {
+  padding-right: 0px;
 }
