@@ -1,116 +1,67 @@
 
 
-nav a{
-  text-align: right;
-      color:white;
-}
 
-.hero-banner
+
+.hero-banner                          /* Pt prima sectiune*/
 {
-height: 500px;
-padding-top:200px;
-text-align: center;
-background-image: url(assets/images/bg2.jpg);
-background-repeat: no-repeat;
-background-size: cover;;
-background-position: center;
-
-color:White;
-
-border-width: 20px;
+    height: 500px;
+    padding-top: 200px;
+    text-align: center;
+    background-image: url(assets/images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+    background-position: center;
+    color: White;
+    border-width: 20px;
 }
 
-.hero-text  {
-  color:white;
-  text-align: center;
-  padding:150px;
-}
-
-.hero-banner button{
-
-  text-decoration-style: none;
-    color:black;
-  border-color: white;
-  background-color: white ;
-  border-radius: 55px;
-}
-
-#sus {
-  width: 50px;
-  padding-top: 5px;
-  float:left;
-  text-align: left;
-  margin: 0px;
-}
-section article img {
-  padding-top: 500px;
-}
-
-#blue {
-  height: auto;
-
-  background: rgb(0, 100, 250);;
-  text-align: center;
-  padding-bottom: 70px;
-}
-#blue img{
-padding:10px;
-}
-#blue h1 {
-  height: auto;
-  margin: 15px;
+.hero-banner button {
+    text-decoration-style: none;
+    color: black;
+    border-color: white;
+    background-color: white;
+    border-radius: 55px;
 }
 
 
-#black{
-  height: auto;
-  background: black;
-
-
+.blue-back {                              /* Sectiunea albastra */
+    height: auto;
+    background: rgb(0, 100, 250);
+        text-align: center;
+    padding-bottom: 70px;
 }
-#black h1{
-  margin: 0;
-  margin-top:   0px;
-  color: white;
-  text-align: center;
+.blue-back img {
+    padding: 10px;
 }
-
-
-
-.image-one img{
-
-
-  height: 90px;
-  margin-top: 15px;
-  border:2px solid;
-  border-color: darkgray;
-  border-radius: 150px;
-
+.blue-back h1 {
+    height: auto;
+    margin: 15px;
 }
 
-.image-two img{
-  height: 90px;
-  width: auto;
 
-  border:2px solid;
-  border-color: darkgray;
-  border-radius: 150px;
+.black-back {                             /*Sectiunea neagra */
+    height: auto;
+    background: black;
+}
+.black-back h1 {
+    margin: 0;
+    margin-top: 0px;
+    color: white;
+    text-align: center;
 }
 
-.content {
 
+.image-one img {                        /*Imaginile din sectiunea neagra*/
+    height: 90px;
+    margin-top: 15px;
+    border: 2px solid;
+    border-color: darkgray;
+    border-radius: 150px;
 }
-
-.img{
-
-
-
-
-}
-
-.img img{
-  width:100%;
-  padding: 15px;
+.img img {
+    width: 100%;
+    padding: 15px;
     height: auto;
     margin-left: -15px;
     margin-right: -15px;
@@ -119,14 +70,7 @@ padding:10px;
     transition-property: width;
     transition-duration: 2s;
 }
-
 .img img:hover {
-  opacity: 0.5;
-   filter: alpha(opacity=50);
-
-
-}
-
-.navbar-default .navbar-nav li a {
-  color: red;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }

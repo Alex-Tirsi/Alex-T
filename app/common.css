@@ -1,0 +1,14 @@
+
+nav a {
+  text-align: right;
+}
+.navbar-default .navbar-nav li a {
+    color: red;
+    margin-right: 10px;
+}
+
+.joss {     /*Footer*/
+  margin-top: 80px;
+  color: black;
+  text-align: center;
+}

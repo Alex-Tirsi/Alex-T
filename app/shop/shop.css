@@ -1,4 +1,4 @@
-.banner{
+.banner{        /*Sectiunea SHOP */
   height: 200px;
   background: rgb(0, 200, 180);
   color: black  ;
@@ -13,7 +13,7 @@ padding-top: 80px;
 
 }
 
-.prod{
+.prod{        /*Sectiunea cu produse*/
   background:darkgray;
 
 }
@@ -21,17 +21,14 @@ padding-top: 80px;
 .content{
 margin: auto;
 color: black;
-
 }
 .content img{
-
   width: 100%;
   margin-bottom: 10px;
 
 }
 
 .img {
-
   background: rgb(100,100, 100);;
   margin-top: 15px;
   padding-top: 20px  0px;
@@ -43,32 +40,28 @@ color: black;
 }
 .img:hover {
   opacity: 0.5;
-
-   filter: alpha(opacity=50);
+  filter: alpha(opacity=50);
 }
 .pagination{
 padding-left: 25%
 }
 
-.container{
-
-  width:80%;
+.lulu{
+width: 80%;
   margin: auto  ;
+  
 }
 
-#ul li  {
+.ul li  {
   width:70%;
   list-style-type: none;
-
 }
 
-
-
-#search {
+.search {
   padding-top: 80px;
 }
 
-h6 {
+h6 {      /*Tagul SALE*/
   position: absolute;
   margin: 0;
   padding: 10px;
@@ -78,5 +71,5 @@ h6 {
   border-color: black;
   border-radius:   50%;
   line-height: 150%;
-    background-color: red;
+  background-color: red;
 }

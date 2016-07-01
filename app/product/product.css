@@ -1,4 +1,4 @@
-.prod {
+.prod {  /*Sectiunea cea mare*/
   margin-top: 50px;
 }
 
@@ -11,49 +11,40 @@ color: white;
   background-color: red;
 }
 
-.sub {
+.sub {      /*Add to cart*/
  margin-left: 100px;
   color: white;
   background-color: blue;
 }
 
-.table {
+.table {    /*Tabelul din description*/
   background-color: red;
   text-rendering: optimizeLegibility;
    box-shadow: 0px 0px 0px 20px grey;
    margin-top: 20px;
 }
-.carousel-control{
+
+.carousel-control{   /*Slide poze*/
   margin:0px 15px;
+}
+.carousel-inner>.item>img {
+  width:100%;
 }
 
 .tab-content {
   color:black;
 }
 
-.nav-tabs>li>a {
+.nav-tabs>li>a {  /* Bara de navigare*/
   color: red;
 }
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{  /*Bara de navigare pe active sau hover*/
   color: red;
   box-shadow: 0px -3px red;
 }
 
-.joss {
-  margin-top: 80px;
-  color: black;
-  text-align: center;
-}
 
-.fa {
-border-width:medium;
-    border-radius: 50px;
-  border-color: green;
-}
-.carousel-inner>.item>img {
-  width:100%;
-}
 
-.text input:not([type="image" i]){
+.text input:not([type="image" i]){    /* Textboxul dintre + si - */
   width: 10%;
 }
