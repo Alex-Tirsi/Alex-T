@@ -1,0 +1,27 @@
+.prod {
+  padding-top: 150px;
+}
+
+td img {
+  height: 40px;
+}
+
+button, input, select, textarea {
+  width: 10%;
+}
+.cart {
+float: right;
+}
+
+h5 {
+  padding-top: 10px;
+}
+
+button .dropdown-menu{
+  background-color: white;
+
+}
+
+.update {
+  margin-top:20px; 
+}

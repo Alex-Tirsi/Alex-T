@@ -46,14 +46,13 @@ color: black;
 padding-left: 25%
 }
 
-.lulu{
-width: 80%;
-  margin: auto  ;
-  
+.lulu {
+  width: 80%;
 }
 
+
 .ul li  {
-  width:70%;
+
   list-style-type: none;
 }
 

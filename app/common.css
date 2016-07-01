@@ -12,3 +12,18 @@ nav a {
   color: black;
   text-align: center;
 }
+.btn-default {
+color: white;
+  background-color: red;
+}
+
+.rosu {
+
+  font-size: 25px;
+  color: red;
+}
+
+.brn-default .white{
+  background-color: white;
+
+}
