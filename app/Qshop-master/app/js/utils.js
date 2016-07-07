@@ -42,3 +42,24 @@ function hideError(inputId) {
 function isEmptyInput(inputId) {
   return !document.querySelector(inputId).value
 }
+
+
+
+function getProductList() {
+  return [{
+    picture:"../assets/images/products/product-1.jpg";
+    name: Limited Price;
+    price: 299;
+    onSale: true;
+
+    picture:"../assets/images/products/product-2.jpg";
+    name: Limited Price;
+    price: 299;
+    onSale: false;
+
+    picture:"../assets/images/products/product-3.jpg";
+    name: Limited Price;
+    price: 299;
+    onSale: false;
+  }]
+}

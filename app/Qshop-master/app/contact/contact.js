@@ -45,7 +45,7 @@ function onchangeElem(inputId) {
  */
 function showError1(inputId) {
   var parentNode =  document.querySelector(inputId).parentNode;
-  while  (parentNode.className.indexOf('form-group')==-1 && parentNode.className != null)
+  while  (parentNode.className.indexOf('form-group')==-1 && parentNode.parentNode != null)
   {
     parentNode =   parentNode.parentNode;
   }
