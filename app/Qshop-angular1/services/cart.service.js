@@ -44,6 +44,28 @@ angular.module("qshop").factory("Cart", function($rootScope) {
 
     };
 
+    cart.sendorder = function(order) {
+        //trim orderul la server
+        console.log("Comanda trimisa", order);
+        cart.products = [];
+        $rootScope.$broadcast('cart-updated');
+    };
+
+    cart.remove = function(product) {
+        var index = null;
+        for (var i = 0; i < this.products.length; i++) {
+            if (this.products[i].id == product.id) {
+                index = i;
+                break;
+
+            }
+        }
+        if (index != null) {
+            this.products.splice(index, 1);
+        }
+
+    };
+
 
     cart.getTotalProducts = function() {
         var totalProd = 0;

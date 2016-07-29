@@ -12,6 +12,7 @@
                                 <th>Price</th>
                                 <th>Quantity</th>
                                 <th>Total</th>
+                                  <th>#</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -36,6 +37,9 @@
                                 </td>
                                 <td class="product-total">
                                     <a href="#">$ {{product.quantity*product.price}}</a>
+                                </td>
+                                <td>
+                                  <a href=""  ng-click="removeProduct(product)" style="color: red" class="glyphicon glyphicon-remove-circle"</a>
                                 </td>
                             </tr>
 
@@ -63,7 +67,7 @@
                             <div class="form-group">
                                 <div class="col-md-12 form-rows">
                                     <label>Country</label>
-                                    <select class="form-control" placeholder="Select a country">
+                                    <select class="form-control" placeholder="Select a country" ng-model="country">
                                         <option value="" disabled selected>Select your option</option>
                                         <option value="Romania">Romania</option>
                                         <option value="Poland">Poland</option>
@@ -77,18 +81,18 @@
                             <div class="form-group">
                                 <div class="col-md-6 form-rows">
                                     <label>City</label>
-                                    <input class="form-control" type="text" placeholder="Bucharest" />
+                                    <input class="form-control" type="text" placeholder="Bucharest" ng-model="city" />
                                 </div>
                                 <div class="col-md-6">
                                     <label>Zip Code</label>
-                                    <input class="form-control" type="text" placeholder="" />
+                                    <input class="form-control" type="text" placeholder="" ng-model="zipCode"/>
                                 </div>
                                 <div class="col-md-6"></div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <button class="btn btn-orange pull-right">Update Totals</button>
+                                <button class="btn btn-orange" ng-disabled="!listProducts.length" ng-click="sendorder()">Send Order</button>
                             </div>
                         </div>
                     </form>
